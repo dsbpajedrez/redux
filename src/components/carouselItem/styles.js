@@ -5,12 +5,14 @@ export const ContenedorItem = styled.div`
     overflow:hidden;
     cursor:pointer;
     transition:450ms all;
+    opacity:0.8;
     -webkit-transform-origin: center right;
             transfrom-origin:center right;
     &:hover {
         -webkit-transform: translate3d(100px,0,0);
                 transform:translate3d(100px,0,0);
                 transform:scale(1.3);
+                opacity:1;
     }
 `
 export const Imagen = styled.img`
